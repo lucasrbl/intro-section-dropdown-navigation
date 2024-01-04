@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <section class="top-menu">
+    <nav class="nav">
+      <a href="/"><img src="/images/logo.svg" alt="Logo image"></a>
+      <ul class="list">
+              <div class="dropdown">
+                <li class="items-list">
+                 <p class="feature item">Features</p>
+                 <span class="feature-item-icon"></span>
+                </li>
+                <div class="feature-dropdown dropdown-content">
+                  <p><img src="/images/icon-todo.svg" alt="Todo List icon"> Todo List</p>
+                  <p><img src="/images/icon-calendar.svg" alt="Calendar icon"> Calendar</p>
+                  <p><img src="/images/icon-reminders.svg" alt="Reminders icon"> Reminders</p>
+                  <p><img src="/images/icon-planning.svg" alt="Planning icon"> Planning</p>
+                </div>
+              </div>
+  
+              <div class="dropdown">
+                <li class="items-list">
+                  <p class="company item">Company</p>
+                  <span class="company-item-icon"></span>
+                </li>
+              <div class="company-dropdown dropdown-content">
+                <p>History</p>
+                <p>Our Team</p>
+                <p>Blog</p>
+              </div>
+            </div>
+            
+            <li>
+              <p>Carrers</p>
+            </li>
+            
+            
+              <li class="items-list">
+                <p class="item">About</p>
+              </li>
+          </ul>
+            </nav>
+    
+    
+
+        <div class="buttons-div">
+          <button class="login-button">Login</button>
+          <button class="register-button">Register</button>
+        </div>
+
+
+        
+        <label class="hamburger-menu mobile">
+          <input type="checkbox">
+        </label>
+        <aside class="sidebar">
+          <nav>
+            <ul class="list">
+              <li>Features</li>
+              <li>Company</li>
+              <li>Careers</li>
+              <li>About</li>
+  
+  
+              <div class="mobile-buttons-div">
+                <button class="login-button">Login</button>
+                <button class="register-button">Register</button>
+              </div>
+            </ul>
+          </nav>
+      </section>
+  
+
+<section class="content">
+
+  <div class="content-text">
+    <div class="text-div">
+      <h1>Make remote work</h1>
+    
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+    
+      <button class="learn-more-button">Learn More</button>
+    </div>
+    
+    <div class="clients-div">
+      <img src="/images/client-databiz.svg" alt="Databiz logo">
+      <img src="/images/client-audiophile.svg" alt="Audiophile logo">
+      <img src="/images/client-meet.svg" alt="Meet logo">
+      <img src="/images/client-maker.svg" alt="Maker logo">
+    </div>
+  </div>
+
+  <div class="content-img">
+    <img id="main-img" alt="Hero image desktop">
+  </div>
+
+</section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by Lucas Lemos</a>.
+  </div>
+</body>
+<script src="/js/script.js"></script>
+</html>
